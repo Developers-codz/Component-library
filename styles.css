@@ -111,7 +111,8 @@ hr {
 
 /* section */
 .section{
-    padding:2rem;
+    padding:1.5rem;
+    padding-bottom: 3.5rem;
 }
 .section h3 {
     text-align: center;
