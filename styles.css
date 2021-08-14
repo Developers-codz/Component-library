@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
 *{
-    
     box-sizing: border-box;
+    padding:0px;
+    margin:0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
 :root {
     --primary-color: #BE185D;
     --dark-gray: #6B7280;
@@ -22,12 +25,21 @@ body {
 .container-fluid {
     margin: 0 rem 40 rem;
 }
+.container-spread-all{
+    margin: 0 px !important;
+    padding: 0 px !important;
+}
 
+.margin-up-down{
+    margin: 3rem 0rem;
+}
 /* link */
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    font-size: larger;
+   
     
 }
 
@@ -50,6 +62,9 @@ hr {
 .padding-md{
     padding: 2rem;
 }
+.list  p{
+    font-size: larger; 
+}
 
 .list-non-bullet {
     list-style: none;
@@ -62,7 +77,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 
 .navigation {
@@ -70,6 +85,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+   
 }
 
 .navigation .link {
@@ -82,6 +98,11 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .list-item-inline{
+        /* margin: 0rem 0.2rem; */
+    }
 }
 
 /* header */
@@ -97,11 +118,10 @@ hr {
 }
 
 .hero .hero-heading {
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: var(--dark-gray);
     padding-top: 1rem;
     padding-bottom: 0%;
-    
     text-align: center;
 }
 
@@ -118,6 +138,11 @@ hr {
     text-align: center;
     padding: 2rem;
 }
+.section p{
+    margin-bottom: 3rem;
+    font-size: larger;
+}
+
 .ow{
 background-color: var(--off-white);
 
