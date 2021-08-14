@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+:root {
+    --primary-color:#BE185D;
+}
+
+body{
+    font-family: 'Hahmlet', serif;
+}
+.container-center{
+    margin:auto;
+    max-width: 600px;
+
+}
+.container-fluid{
+    margin: 0 rem 40 rem;
+}
+/* link */
+.link{
+text-decoration: none;
+padding: 0.5rem 1rem; 
+border-radius: 1rem;
+
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color:white;
+    
+}
+.link-secondary{
+    border: 1px solid var(--primary-color);
+    color:var(--primary-color);
+}
+
+
+
+
+/* bem naming convention in css */
