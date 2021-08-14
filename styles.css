@@ -31,8 +31,22 @@ border-radius: 1rem;
     border: 1px solid var(--primary-color);
     color:var(--primary-color);
 }
+hr{
+    margin: 2rem 0rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.6rem;
+}
 
 
 
 
-/* bem naming convention in css */
+
+
+/* bem naming convention for css */
