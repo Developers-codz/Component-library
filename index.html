@@ -1,112 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Kajal Kumari</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>Kajal's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a Library which which would make all my projects look good and
-        consistent</p>
+    <nav class="navigation container">
 
-    <hr />
-
-    <h2>How different typography will look</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is the normal text.It is free flowing and will wrap at the end like a paragraph</p>
-    <small>This is relatively smaller text</small>
-    <hr />
-
-    <h2>@Containers</h2>
-    <h3>@Fluid Container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till end of container</div>
-    <h3>@Centered Container</h3>
-    <div class="container-center">This is a centered container and it will go till the specified width</div>
-    <hr />
-
-    <h2>@links</h2>
-
-    <a href="/" class="link link-primary">Primary Link</a>
-    <a href="/" class="link link-secondary">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>Unordered List</h3>
-    <p>this list will not have bullet</p>
-    <ul class="list-non-bullet">
-        <li>ItemOne</li>
-        <li>ItemTwo</li>
-        <li>ItemThree</li>
-    </ul>
-    <h3>Unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline itemOne</li>
-        <li class="list-item-inline">Inline itemTwo</li>
-        <li class="list-item-inline">Inline itemThree</li>
-    </ul>
-
-    <h3>Reversed Order List</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr />
-    <h2>@nav</h2>
-    <div class="navigation container">
-
-        <div class="nav-brand">IamBrand</div>
+        <div class="nav-brand">IAmDeveloper</div>
         <ul class="list-non-bullet nav-pills ">
             <li class="list-item-inline ">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline ">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline ">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
-    </div>
-    <hr />
-    <h2>@Header</h2>
+    </nav>
     <header class="hero">
         <img src="images\heroImg.svg" alt="" class="hero-image">
         <h1 class="hero-heading">Kajal Kumari- <span class="header-heading-inverted">The Web Developer</span> </h1>
     </header>
-    <h2>@Section</h2>
 
+    <section class="section ow">
+        <div class="container container-center">
+          <h3>Technologies</h3>
+          <p><strong>I'm familiar with HTML5,CSS,Git,JavaScript,NodeJs,ReactJs, and Web Hosting</strong> </p>
+        </div>
+      </section>
     <section class="section ">
         <div class="container container-center">
-            <h3>White Section</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores laborum fuga! Dolores autem eos assumenda ea sapiente natus pariatur. </p>
+          <h3>Projects</h3>
+          <p><strong>I like to showcase my work hosted online. You can see my projects anytime</strong> </p>
+          <a href="projects.html" class="link link-primary">See Projects</a>
         </div>
-    </section>
-    <section class="section ow">
-      <div class="container container-center">
-        <h3>Off white Section</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ab, repudiandae, nulla provident cupiditate deleniti in suscipit aliquam eius qui, repellat itaque fuga aperiam mollitia. Autem accusamus excepturi doloremque quasi! </p>
-      </div>
-    </section>
-    <hr />
-    <h2>@Footer</h2>
-    <footer class="footer-header footer conatiner">
+      </section>
+      <section class="section ow">
+        <div class="container container-center">
+          <h3>Blogs</h3>
+          <p><strong>I am also working on some technical and non technical blogs.I like to document my journey of learning </strong> </p>
+          <a href="blogs.html" class="link link-secondary">Browse Blogs</a>
+        </div>
+      </section>
+
+      <footer class="footer-header footer conatiner">
+          <div class="footer-header">Social Media presence</div>
         <ul class="social-links list-non-bullet">
-            <li class="link list-item-inline"><a href="/">socialOne</a> </li>
-            <li class="link list-item-inline"><a href="/">socialTwo</a> </li>
-            <li class="link list-item-inline"><a href="/">socialThree</a> </li>
+            <li class="link list-item-inline"><a href="https://github.com/Developers-codz">GitHub</a> </li>
+            <li class="link list-item-inline"><a href="https://www.linkedin.com/in/kajal-kumari-52bab41aa/">LinkedIn</a> </li>
+            <li class="link list-item-inline"><a href="https://www.instagram.com/barnawal.kajal/">Instagram</a> </li>
            
         </ul>
     </footer>
-
 </body>
-
 </html>

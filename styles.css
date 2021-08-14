@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
 *{
-    padding: 0%;
+    
     box-sizing: border-box;
 }
 :root {
@@ -28,7 +28,7 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-
+    
 }
 
 .link-primary {
@@ -40,10 +40,15 @@ body {
 .link-secondary {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
+    
 }
 
 hr {
     margin: 2rem 0rem;
+}
+/* spaces */
+.padding-md{
+    padding: 2rem;
 }
 
 .list-non-bullet {
@@ -81,7 +86,8 @@ hr {
 
 /* header */
 .hero {
-    padding: 2rem;
+    padding: 1rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -94,6 +100,8 @@ hr {
     font-size: 2rem;
     color: var(--dark-gray);
     padding-top: 1rem;
+    padding-bottom: 0%;
+    
     text-align: center;
 }
 
@@ -103,7 +111,7 @@ hr {
 
 /* section */
 .section{
-    padding:2 rem;
+    padding:2rem;
 }
 .section h3 {
     text-align: center;
@@ -122,6 +130,12 @@ background-color: var(--off-white);
     border-top-right-radius:1rem ;
     
 }
+.footer .footer-header{
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    margin: 1rem 0rem;
+}
 .footer .ul{
     padding-inline-start: 0px;
 }
@@ -139,3 +153,4 @@ background-color: var(--off-white);
 
 /* bem naming convention for css */
 /* screen cast mode  */
+/* what is root and relative path */
