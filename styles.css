@@ -214,7 +214,6 @@ background-color: var(--off-white);
     }
     .section{
         overflow-wrap: break-word;
-        
         width:100% !important;
     }
     .hero-image {
@@ -238,6 +237,8 @@ background-color: var(--off-white);
         .blog-div {
             margin:auto;
             width: fit-content;
+            overflow-wrap: break-word;
+        width:100% !important;
         }
     
 }
