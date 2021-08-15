@@ -17,6 +17,7 @@ body{
     --primary-color: #BE185D;
     --dark-gray: #6B7280;
     --off-white:rgb(245, 244, 244);
+    --off-dark:rgb(54, 50, 50);
 }
 
 body {
@@ -199,7 +200,7 @@ background-color: var(--off-white);
     font-size:large;
     font-weight: lighter;
     padding:1rem 0rem;
-    color: var(--dark-gray);
+    color: var(--off-dark);
     line-height: 30px;
 }
 
