@@ -17,7 +17,7 @@ body{
     --primary-color: #BE185D;
     --dark-gray: #6B7280;
     --off-white:rgb(245, 244, 244);
-    --off-dark:rgb(54, 50, 50);
+    --off-dark:black;
 }
 
 body {
