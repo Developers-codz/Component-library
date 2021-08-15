@@ -8,6 +8,8 @@ body{
     overflow-x: hidden !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
 
@@ -18,7 +20,8 @@ body{
 }
 
 body {
-    font-family: 'Hahmlet', serif;
+    /* font-family: 'Hahmlet', serif; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-center {
@@ -64,12 +67,16 @@ hr {
     margin: 2rem 0rem;
 }
 /* spaces */
-.padding-md{
+.padding-md {
     padding: 2rem;
+}
+.margin-md {
+    margin:2rem 0rem;
 }
 .list  p{
     font-size: larger; 
 }
+
 
 .list-non-bullet {
     list-style: none;
@@ -175,6 +182,31 @@ background-color: var(--off-white);
     text-decoration: none !important;
 }
 
+
+
+/* blog image */
+.blog-image{
+    height:300px;
+    width:100%;
+}
+/*Blog Para */
+.blog-div{
+    margin:auto;
+    width:900px;
+
+}
+.blog-div p {
+    font-size:large;
+    font-weight: lighter;
+    padding:1rem 0rem;
+    color: var(--dark-gray);
+    line-height: 30px;
+}
+
+.list-spaced{
+    padding: 0.5rem 0rem;
+}
+
 @media only screen and (max-width: 600px) {
     .list-item-inline{
         margin: 0rem 0.2rem;
@@ -191,9 +223,17 @@ background-color: var(--off-white);
         padding:1rem 0rem;
         margin:0px;
     }
+    .nav-pills{
+        font-size: 12px;
+    }
     .nav-brand{
         padding-left:
             0.5rem;
+        }
+
+        .blog-div {
+            margin:auto;
+            width: fit-content;
         }
     
 }

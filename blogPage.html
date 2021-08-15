@@ -8,6 +8,106 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav class="navigation ">
+
+        <div class="nav-brand">IAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills ">
+            <li class="list-item-inline ">
+                <a class="link " href="/">Home</a>
+            </li>
+            <li class="list-item-inline ">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline ">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <div class=" blog-div padding-md margin-md">
+        
+        <h1 class="hero-heading margin-md ">Most Used <strong>git Commands</strong>  </h1>
+        <small>August 15, 2021</small>
+        <hr>
+        <img  class="blog-image"src="\images\blogThumbnail.svg" alt="" class="hero-image">
+
+        <div class="blog-div">
+            <h1 class="hero-heading ">What is <strong>GitHub?</strong>  </h1>
+            <p>You have made a project, Great ! But is it available online ? I mine can it be assesible from anywhere or only in your machine well I guess only in your machine. Okay what about submiting it online. Yes the way you put your photos from your mobile to cloud called Google Photos. It gives you access of your photos from anywhere in the world. Similarly  there is a place where you can submit your codes in the form of repository. 
+                Sounds Good! isnt it?
+                Github is that powerful dev platform, opensource community, version control system where you can submit your projects, codes in form of repository.
+                </p>
+               
+            <h1 class="hero-heading">What is <strong>Git?</strong>  </h1>
+            <p>Git is the version control system. It's even more powerful than you think. It will track your changes which you did in your files so that you have the records of what you did and you can go to specific versions too. You can collaborate , merge with multiple no of people and and finally merge in main
+                </p>
+                <h3 class="hero-heading margin-md">Well, there is two ways for controling versions --
+                    </h3>
+                    <ol class=" ">
+                        <li class="list-spaced" > By using GitHub desktop</li>
+                        <li class="list-spaced">By using git commands</li>
+                    </ol>
+
+                    <p>Here We will be focused on Git commands</p>
+                    <p>For this, lets suppose you have a folder say "yourname-site"
+                        having two files in it namely index.html and readme.md 
+                        ,now in order to publish its first version open your gitbash or if you are using VS Code then do <strong> Ctrl+`  </strong> 
+                        This will open your terminal
+                    </p>
+                    <p>Check the path if its correct then awesome, otherwise navigate to the folder you wanna push </p>
+
+                <br>
+                <h3>Check the version</h3>
+                <p>For this simply type <strong>git --version</strong></p>
+                <h3>Git init</h3>
+                <p>Do run the first command 'git init' - It will initialize a new 
+                    git repository for you or will convert a existing repository In our's case an existing one will be converted : )
+                    
+                </p>
+
+                <h3>Git add [filename]</h3>
+                <p>this command adds a file in the staging environment.As a developer you will be adding,editing and removing files.Adding files will make you ready for the files to be commited</p>
+                <br>
+                <p>for adding all file do <strong>git add .</strong></p>
+
+                <h3>Git commit</h3>
+                <p>Now as stage is completed we can move to commit. adding commit will keep track of your progress and changes.
+                    As you will do it everytime you add , delete or edit file its important to keep track for this we always include a message while do'in commit.
+                </p>
+                <br>
+                <p>So do type <strong>git commit -m "First Commit"</strong><br> and yaay!!  You are ready to go for pushing your files on github. btw, have you noticed the switch -m ??
+                <br>It adds the commit message</p>
+
+                <h3>git branch -M main</h3>
+                <p>You can also do branching that's the power of GitHub.If you have a large project you will give replica to every member and they will have their own branch where they can submit their codes without affecting the original files.Once completed people can always check and verify and if all good can merge to original file which we call main branch but for that atleast we first need to make a main branch <br>
+                So for this type git branch -M main
+                and boom main branch created.
+                <br>
+                Haha!!
+                </p>
+
+
+                <h3>git remote add origin [url]</h3>
+                <p> Before you push you must know where to push na?? Go to your github account and then make a new repository naming "studentname-site" and then click create repositoy there you will also get remote url copy it and run this command
+                <br>git remote add origin https://github.com/gitAccount/studentname-site.git</p>
+
+               
+
+                <h3>Git push -u origin main</h3>
+                <p>Yes the time came. This command will push your local repo to the remote in GitHub
+                <br>
+                    for this type <strong>git push -u origin main</strong>
+                    <br>
+                    Your first repo pushed. Go and check it in your repository section in your github account. 
+                    <br>
+                    for now Bbye Happy coding!
+
+
+
+            </p>
+
+
+               
+        </div>
+    </div>
 </body>
 </html>
