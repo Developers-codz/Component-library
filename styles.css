@@ -207,6 +207,9 @@ background-color: var(--off-white);
 .list-spaced{
     padding: 0.5rem 0rem;
 }
+.container-center p{
+    word-spacing: 0.3rem;
+}
 
 @media only screen and (max-width: 600px) {
     .list-item-inline{
