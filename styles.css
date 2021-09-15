@@ -245,6 +245,15 @@ background-color: var(--off-white);
         }
     
 }
+.bold{
+font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.margin-sm-left{
+    margin-left: 1rem;
+}
 
 
 
