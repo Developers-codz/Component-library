@@ -66,8 +66,7 @@
                     </ul>
 
 
-                    <p>In first example the slice method is returning the whole string as we have not passed any
-                        argument to it.</p>
+                   
                     <p><span class=" margin-md ">On Array</span></p>
                     <p>const flowers = ["Rose" , "Sunflower" , "daffodils", "Lily"];</p>
                     <ul type="square">
@@ -102,13 +101,50 @@
                     </ul>
                     <li class="list-spaced bold" ><h2> repalceAll()</h2></li>
                     <p>This method return a new string based on provided replacement after replacing it in string.  </p>
-                    <p>Example :- var str = <span class="italic">"15-09-2021"</span></p>
+                    <p>Example :- 1. var str = <span class="italic">"15-09-2021"</span></p>
+                    <p>2.var str2 = "write the Blog"</p>
 
                     <ul type="square">
                         <li class="italic list-spaced margin-sm-left">str.replaceAll('-' , '') // "15092021"</li>
+                        <li class="italic list-spaced margin-sm-left">str2.replaceAll('write' , 'read') // &nbsp; &nbsp;"read the Blog"</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> charAT()</h2></li>
+                    <p>This method return specified character from a string of specified index.</p>
+                    <p>Example :-  var str = <span class="italic">"Hello World!"</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.charAt(3) // &nbsp; &nbsp;"l"</li>
+                        <li class="italic list-spaced margin-sm-left">str.charAt(7) // &nbsp; &nbsp;"o"</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> split()</h2></li>
+                    <p>This method split the string on the basis of argument you pass in it.</p>
+                    <p>Example :-  var str = <span class="italic">"Welcome to programming world!"</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.split('') // &nbsp; &nbsp;['W', 'e', 'l', 'c', 'o', 'm', 'e', ' ', 't', 'o', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g', ' ', 'w', 'o', 'r', 'l', 'd', '!']</li>
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp;['Welcome', 'to', 'programming', 'world!']</li>
+                        <li class="italic list-spaced margin-sm-left">str.split('o')//  &nbsp; &nbsp; ['Welc', 'me t', ' pr', 'gramming w', 'rld!']</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> join()</h2></li>
+                    <p>This method return an array of string joining all the breakpoints </p>
+                    <p>Example :-  var arr = <span class="italic">["Welcome" ,"to","programming" "world!"]</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.join('') // &nbsp; &nbsp;'Welcometoprogrammingworld!'</li>
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp;'Welcome to programming world!'</li>
+                        <li class="italic list-spaced margin-sm-left">str.split('o') //  &nbsp; &nbsp; 'Welcomeotooprogrammingoworld!'</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> reverse()</h2></li>
+                    <p>This method reverse the order of the array and then return it as array of strings.
+                    </p>
+                    <p>Example:- var arr = <span class="italic">['W', 'e', 'l', 'c', 'o', 'm', 'e']</span></p>
+
+                    <ul type="square">
+                       
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp; ['e', 'm', 'o', 'c', 'l', 'e', 'W']</li>
+                        
                     </ul>
                     
             </ol>
+
+            <p> Hope you enjoyed the blog. For now bye bye 🚶‍♀️</p>
 
 
 
