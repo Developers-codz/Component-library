@@ -225,12 +225,20 @@ background-color: var(--off-white);
     .blog-image{
         max-width: 200px !important;
     }
+    .link{
+        padding:0.5rem !important;
+    }
     .navigation{
         padding:1rem 0rem;
         margin:0px;
     }
+    .navigation .nav-pills{
+        text-align: center;
+
+    }
     .nav-pills{
-        font-size: 12px;
+        font-size: 16px;
+        padding-top: 1rem;
     }
     .nav-brand{
         padding-left:
